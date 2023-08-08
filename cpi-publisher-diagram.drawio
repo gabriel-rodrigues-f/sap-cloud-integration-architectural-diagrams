@@ -1,9 +1,287 @@
-<mxfile host="app.diagrams.net" modified="2023-08-08T17:40:57.421Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" version="21.6.6" etag="hk2mMe3DCLpp2dzE252h" type="github">
-  <diagram name="Página-1" id="U4ALBJMrt5r-Zm2KS0YD">
-    <mxGraphModel>
+<mxfile host="app.diagrams.net" modified="2023-08-08T18:33:30.696Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="GsgaLmrn8tBwUD-Cbb4t" version="21.6.6" type="github" pages="5">
+  <diagram name="Backend" id="U4ALBJMrt5r-Zm2KS0YD">
+    <mxGraphModel dx="1783" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Bm7CMhNdHjthdd0hcuxf-11" value="&lt;h1&gt;Entidades&lt;/h1&gt;&lt;p&gt;Integration Package 1 x n&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;Integration Flows&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-520" y="140" width="320" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Bm7CMhNdHjthdd0hcuxf-12" value="&lt;h1&gt;Casos de Uso&lt;/h1&gt;&lt;p&gt;- Criação de Integration Package&lt;br&gt;&amp;nbsp; &amp;nbsp; - Verifica se o Package já existe em PRD, caso não&lt;br&gt;&amp;nbsp; &amp;nbsp; então cria um novo Integration Package&lt;/p&gt;&lt;p&gt;- Criação de Integration Flow&lt;br&gt;&amp;nbsp; &amp;nbsp; - Cria um novo Integration Flow dentro do Integration&lt;br&gt;&amp;nbsp; &amp;nbsp; Package informado&lt;/p&gt;&lt;p&gt;- Preenchimento de Propriedades do Integration Flow&lt;br&gt;&amp;nbsp; &amp;nbsp; - Recebe os dados oriundos frontend e substitui as&lt;br&gt;&amp;nbsp; &amp;nbsp; propriedades do Integration Flow de NON-PRD para&lt;br&gt;&amp;nbsp; &amp;nbsp; em seguida realizar o upload do artefato para PRD&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-520" y="250" width="320" height="270" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="F1UluRhyG8lTW3eigWto" name="Backend Layers">
+    <mxGraphModel dx="2261" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yw3balh2eXnw9bGsxHgm-1" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="140" width="490" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="yw3balh2eXnw9bGsxHgm-2" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="210" width="350" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="yw3balh2eXnw9bGsxHgm-3" value="Domain" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="273.75" width="200" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="yw3balh2eXnw9bGsxHgm-4" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=12 12;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="373.75" as="sourcePoint" />
+            <mxPoint x="500" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yw3balh2eXnw9bGsxHgm-5" value="Abstractions" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yw3balh2eXnw9bGsxHgm-4">
+          <mxGeometry x="-0.1271" relative="1" as="geometry">
+            <mxPoint x="24" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yw3balh2eXnw9bGsxHgm-6" value="Application" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="195" y="230" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yw3balh2eXnw9bGsxHgm-7" value="Infrastructure" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="195" y="160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yw3balh2eXnw9bGsxHgm-8" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-230" y="140" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="yw3balh2eXnw9bGsxHgm-9" value="Domain: Entities and abstractions" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="yw3balh2eXnw9bGsxHgm-8">
+          <mxGeometry width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yw3balh2eXnw9bGsxHgm-10" value="Application: Services / Usecases" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="yw3balh2eXnw9bGsxHgm-8">
+          <mxGeometry y="30" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yw3balh2eXnw9bGsxHgm-11" value="Infrastructure: Settings and connectivity" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="yw3balh2eXnw9bGsxHgm-8">
+          <mxGeometry y="60" width="250" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="e5FCP6EkzeU4hljScw43" name="Backend Quality Warranty">
+    <mxGraphModel dx="2336" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ChVGmJGDzRxK7669mnZ_-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-440" y="520" width="530" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="ChVGmJGDzRxK7669mnZ_-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-440" y="70" width="530" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="ChVGmJGDzRxK7669mnZ_-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ChVGmJGDzRxK7669mnZ_-5" target="ChVGmJGDzRxK7669mnZ_-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ChVGmJGDzRxK7669mnZ_-5" value="Backend" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-235" y="90" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ChVGmJGDzRxK7669mnZ_-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ChVGmJGDzRxK7669mnZ_-7" target="ChVGmJGDzRxK7669mnZ_-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ChVGmJGDzRxK7669mnZ_-7" value="Commit" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-235" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ChVGmJGDzRxK7669mnZ_-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ChVGmJGDzRxK7669mnZ_-11" target="ChVGmJGDzRxK7669mnZ_-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ChVGmJGDzRxK7669mnZ_-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ChVGmJGDzRxK7669mnZ_-11" target="ChVGmJGDzRxK7669mnZ_-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ChVGmJGDzRxK7669mnZ_-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ChVGmJGDzRxK7669mnZ_-11" target="ChVGmJGDzRxK7669mnZ_-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ChVGmJGDzRxK7669mnZ_-11" value="Hysky" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-235" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ChVGmJGDzRxK7669mnZ_-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=12 12;" edge="1" parent="1" source="ChVGmJGDzRxK7669mnZ_-13" target="ChVGmJGDzRxK7669mnZ_-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ChVGmJGDzRxK7669mnZ_-13" value="Pretty" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-235" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ChVGmJGDzRxK7669mnZ_-14" value="Lint" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-390" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ChVGmJGDzRxK7669mnZ_-15" value="Test" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ChVGmJGDzRxK7669mnZ_-16" value="Docker container Nodejs 18.x" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-423" y="90" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ChVGmJGDzRxK7669mnZ_-17" value="Github&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-423" y="530" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ChVGmJGDzRxK7669mnZ_-18" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-336.5" y="610" width="323" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="ChVGmJGDzRxK7669mnZ_-19" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ChVGmJGDzRxK7669mnZ_-18">
+          <mxGeometry width="323" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="ChVGmJGDzRxK7669mnZ_-20" value="Repository" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ChVGmJGDzRxK7669mnZ_-18">
+          <mxGeometry x="23.5" y="10" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ChVGmJGDzRxK7669mnZ_-21" value="Governance" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ChVGmJGDzRxK7669mnZ_-18">
+          <mxGeometry x="173.5" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ChVGmJGDzRxK7669mnZ_-22" value="Actions" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="ChVGmJGDzRxK7669mnZ_-18">
+          <mxGeometry x="33.5" y="70" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ChVGmJGDzRxK7669mnZ_-23" value="Security" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ChVGmJGDzRxK7669mnZ_-18">
+          <mxGeometry x="173.5" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ChVGmJGDzRxK7669mnZ_-24" value="Quality Warranty" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ChVGmJGDzRxK7669mnZ_-18">
+          <mxGeometry x="50" y="100" width="90" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="k1OWiB_b3UI-bdixU7Ov" name="Integration UseCases">
+    <mxGraphModel dx="2420" dy="851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VE-rfienf1eznVEvt_0z-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=12 12;" edge="1" parent="1" source="VE-rfienf1eznVEvt_0z-2" target="VE-rfienf1eznVEvt_0z-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VE-rfienf1eznVEvt_0z-2" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-570" y="505" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VE-rfienf1eznVEvt_0z-3" value="Fiori" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-450" y="260" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VE-rfienf1eznVEvt_0z-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=12 12;" edge="1" parent="1" source="jBybfuIfDPozSE7CGX2O-2" target="VE-rfienf1eznVEvt_0z-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VE-rfienf1eznVEvt_0z-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=12 12;" edge="1" parent="1" source="VE-rfienf1eznVEvt_0z-8" target="VE-rfienf1eznVEvt_0z-69">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-270" y="640" />
+              <mxPoint x="-270" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VE-rfienf1eznVEvt_0z-7" value="3 Get" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VE-rfienf1eznVEvt_0z-6">
+          <mxGeometry x="-0.3721" y="-1" relative="1" as="geometry">
+            <mxPoint x="-58" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VE-rfienf1eznVEvt_0z-8" value="Frontend" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-470" y="310" width="100" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="VE-rfienf1eznVEvt_0z-9" value="Integration Suite" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-62" y="260" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VE-rfienf1eznVEvt_0z-10" value="Github" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="517" y="260" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VE-rfienf1eznVEvt_0z-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=12 12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="VE-rfienf1eznVEvt_0z-13" target="jBybfuIfDPozSE7CGX2O-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="368.99999999999955" y="480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="577" y="480" />
+            </Array>
+            <mxPoint x="577" y="440" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VE-rfienf1eznVEvt_0z-12" value="2 Post" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VE-rfienf1eznVEvt_0z-11">
+          <mxGeometry x="0.3424" y="1" relative="1" as="geometry">
+            <mxPoint x="122" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VE-rfienf1eznVEvt_0z-13" value="Backend" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="517" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VE-rfienf1eznVEvt_0z-22" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-310" y="690" as="sourcePoint" />
+            <mxPoint x="-310" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VE-rfienf1eznVEvt_0z-23" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="457" y="690" as="sourcePoint" />
+            <mxPoint x="457" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VE-rfienf1eznVEvt_0z-24" value="&lt;h1&gt;Publish and parameterize the deployment of a new integration flow&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-269" y="120" width="609" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="jBybfuIfDPozSE7CGX2O-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VE-rfienf1eznVEvt_0z-69" target="jBybfuIfDPozSE7CGX2O-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jBybfuIfDPozSE7CGX2O-9" value="1 x n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jBybfuIfDPozSE7CGX2O-8">
+          <mxGeometry x="-0.0694" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VE-rfienf1eznVEvt_0z-69" value="Integration Packages" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jBybfuIfDPozSE7CGX2O-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=12 12;exitX=0.989;exitY=0.116;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="VE-rfienf1eznVEvt_0z-8" target="jBybfuIfDPozSE7CGX2O-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-371" y="360" />
+            </Array>
+            <mxPoint x="-371" y="362" as="sourcePoint" />
+            <mxPoint x="517" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jBybfuIfDPozSE7CGX2O-4" value="1 Post" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jBybfuIfDPozSE7CGX2O-3">
+          <mxGeometry x="-0.9285" relative="1" as="geometry">
+            <mxPoint x="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jBybfuIfDPozSE7CGX2O-2" value="JSON" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="5.5" y="345" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jBybfuIfDPozSE7CGX2O-7" value="Integration Flows" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="107" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jBybfuIfDPozSE7CGX2O-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jBybfuIfDPozSE7CGX2O-12" target="jBybfuIfDPozSE7CGX2O-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jBybfuIfDPozSE7CGX2O-19" value="n x 1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jBybfuIfDPozSE7CGX2O-18">
+          <mxGeometry x="0.3603" y="1" relative="1" as="geometry">
+            <mxPoint x="10" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jBybfuIfDPozSE7CGX2O-12" value="Integration Flows" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="70" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jBybfuIfDPozSE7CGX2O-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jBybfuIfDPozSE7CGX2O-13" target="jBybfuIfDPozSE7CGX2O-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jBybfuIfDPozSE7CGX2O-21" value="n x 1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jBybfuIfDPozSE7CGX2O-20">
+          <mxGeometry x="-0.3117" relative="1" as="geometry">
+            <mxPoint x="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jBybfuIfDPozSE7CGX2O-13" value="Integration Packages" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="250" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jBybfuIfDPozSE7CGX2O-14" value="&lt;h1&gt;Finalidade&lt;/h1&gt;&lt;p&gt;Para que seja possível realizar o processo de deploy de Integration Flows e sua posterior parametrização para o estado de &quot;deploy&quot; de maneira automatizada, deve-se criar uma integração capaz de receber via formulário os insumos da integração e, posteriormente, realizar o processamento dos dados via backend, executando as ações de upload e parametrização de deploy do Integration Flow em ambiente Produtivo (PRD).&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-780" y="225" width="190" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="jBybfuIfDPozSE7CGX2O-15" value="Parameters" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="d6ieSAeFHaT9mjKcqOiS" name="Payload examples">
+    <mxGraphModel dx="2336" dy="1975" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qil7m8EiLISS4TCCwYtW-12" value="&lt;h1&gt;/publish&lt;/h1&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;{&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &quot;route&quot;: &quot;/publish&quot;,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &quot;integrationPackage&quot;: {&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;id&quot;: &quot;&quot;,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;name&quot;: &quot;&quot;,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;description&quot;: &quot;&quot;,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;shortText&quot;: &quot;&quot;,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;version&quot;: &quot;&quot;,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;supportedPlatform&quot;: &quot;&quot;,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;products&quot;: &quot;&quot;,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;keywords&quot;: &quot;&quot;,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;countries&quot;: &quot;&quot;,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;industries&quot;: &quot;&quot;,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;lineOfBusiness&quot;: &quot;&quot;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; },&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &quot;integrationFlow&quot;: {&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;name&quot;: &quot;&quot;,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;version&quot;: &quot;&quot;,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;id&quot;: &quot;&quot;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; },&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &quot;properties&quot;: {&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;teste&quot;: &quot;&quot;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; }&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;}&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry width="210" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="qil7m8EiLISS4TCCwYtW-14" value="&lt;div&gt;route:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; type: string&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; description: rota informada para identificar o processo que será executado&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;integrationPackage:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; type: object&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; description: entidade responsável por agrupar Integration Flows no Integration Suite de acordo com o negócio da empresa&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; id: string&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; name:&amp;nbsp; &amp;nbsp;string&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; description: string&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; shortText: string&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; version: string&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; supportedPlatform: string&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; products: string&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; keywords: string&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; countries: string&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; industries: string&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; lineOfBusiness: string&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;IntegrationFlow:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; type: object&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; description: entidade responsável por comportar integrações low-code no Integration Suite. É criado dentro de um Integration package e possui propriedades de ambiente&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; id: string&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; name: string&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; version: string&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;properties:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; type: object&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; description:&amp;nbsp; &amp;nbsp; propriedades do Integration Flow.&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Cada Integration Flow possui um número &quot;n&quot; de propriedades, que são nada mais que variáveis de ambiente criadas pelo desenvolvedor.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; *&amp;nbsp; &amp;nbsp;As&amp;nbsp; properties possuem um body dinâmico, definido de acordo com o que foi previamente criado no Integration Flow.&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-540" y="-10" width="500" height="650" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
