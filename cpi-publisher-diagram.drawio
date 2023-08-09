@@ -1,20 +1,20 @@
-<mxfile host="app.diagrams.net" modified="2023-08-09T15:26:36.584Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="9vWx0XxO-ZNczOhmsrar" version="21.6.6" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-08-09T19:38:03.249Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="P7H6DZvLbjyOosCQDVf5" version="21.6.6" type="github" pages="6">
   <diagram name="Backend" id="U4ALBJMrt5r-Zm2KS0YD">
-    <mxGraphModel dx="1783" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2336" dy="840" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Bm7CMhNdHjthdd0hcuxf-11" value="&lt;h1&gt;Entidades&lt;/h1&gt;&lt;p&gt;Integration Package 1 x n&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;Integration Flows&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-520" y="140" width="320" height="90" as="geometry" />
+          <mxGeometry x="-140" y="150" width="320" height="90" as="geometry" />
         </mxCell>
         <mxCell id="Bm7CMhNdHjthdd0hcuxf-12" value="&lt;h1&gt;Casos de Uso&lt;/h1&gt;&lt;p&gt;- Criação de Integration Package&lt;br&gt;&amp;nbsp; &amp;nbsp; - Verifica se o Package já existe em PRD, caso não&lt;br&gt;&amp;nbsp; &amp;nbsp; então cria um novo Integration Package&lt;/p&gt;&lt;p&gt;- Criação de Integration Flow&lt;br&gt;&amp;nbsp; &amp;nbsp; - Cria um novo Integration Flow dentro do Integration&lt;br&gt;&amp;nbsp; &amp;nbsp; Package informado&lt;/p&gt;&lt;p&gt;- Preenchimento de Propriedades do Integration Flow&lt;br&gt;&amp;nbsp; &amp;nbsp; - Recebe os dados oriundos frontend e substitui as&lt;br&gt;&amp;nbsp; &amp;nbsp; propriedades do Integration Flow de NON-PRD para&lt;br&gt;&amp;nbsp; &amp;nbsp; em seguida realizar o upload do artefato para PRD&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-520" y="250" width="320" height="270" as="geometry" />
+          <mxGeometry x="-140" y="260" width="320" height="240" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="F1UluRhyG8lTW3eigWto" name="Backend Layers">
-    <mxGraphModel dx="2261" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2261" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -60,27 +60,27 @@
     </mxGraphModel>
   </diagram>
   <diagram id="e5FCP6EkzeU4hljScw43" name="Backend Quality Warranty">
-    <mxGraphModel dx="2336" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3566" dy="1064" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ChVGmJGDzRxK7669mnZ_-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-440" y="520" width="530" height="460" as="geometry" />
+          <mxGeometry x="-1200" y="579" width="530" height="460" as="geometry" />
         </mxCell>
         <mxCell id="ChVGmJGDzRxK7669mnZ_-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-440" y="70" width="530" height="430" as="geometry" />
+          <mxGeometry x="-1200" y="129" width="530" height="430" as="geometry" />
         </mxCell>
         <mxCell id="ChVGmJGDzRxK7669mnZ_-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ChVGmJGDzRxK7669mnZ_-5" target="ChVGmJGDzRxK7669mnZ_-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ChVGmJGDzRxK7669mnZ_-5" value="Backend" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-235" y="90" width="120" height="80" as="geometry" />
+          <mxGeometry x="-995" y="149" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ChVGmJGDzRxK7669mnZ_-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ChVGmJGDzRxK7669mnZ_-7" target="ChVGmJGDzRxK7669mnZ_-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ChVGmJGDzRxK7669mnZ_-7" value="Commit" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-235" y="210" width="120" height="60" as="geometry" />
+          <mxGeometry x="-995" y="269" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ChVGmJGDzRxK7669mnZ_-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ChVGmJGDzRxK7669mnZ_-11" target="ChVGmJGDzRxK7669mnZ_-13">
           <mxGeometry relative="1" as="geometry" />
@@ -92,28 +92,28 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ChVGmJGDzRxK7669mnZ_-11" value="Hysky" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-235" y="310" width="120" height="60" as="geometry" />
+          <mxGeometry x="-995" y="369" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ChVGmJGDzRxK7669mnZ_-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=12 12;" edge="1" parent="1" source="ChVGmJGDzRxK7669mnZ_-13" target="ChVGmJGDzRxK7669mnZ_-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ChVGmJGDzRxK7669mnZ_-13" value="Pretty" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-235" y="410" width="120" height="60" as="geometry" />
+          <mxGeometry x="-995" y="469" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ChVGmJGDzRxK7669mnZ_-14" value="Lint" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-390" y="410" width="120" height="60" as="geometry" />
+          <mxGeometry x="-1150" y="469" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ChVGmJGDzRxK7669mnZ_-15" value="Test" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-80" y="410" width="120" height="60" as="geometry" />
+          <mxGeometry x="-840" y="469" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ChVGmJGDzRxK7669mnZ_-16" value="Docker container Nodejs 18.x" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-423" y="90" width="120" height="30" as="geometry" />
+          <mxGeometry x="-1183" y="149" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ChVGmJGDzRxK7669mnZ_-17" value="Github&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-423" y="530" width="120" height="30" as="geometry" />
+          <mxGeometry x="-1183" y="589" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ChVGmJGDzRxK7669mnZ_-18" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="-336.5" y="610" width="323" height="270" as="geometry" />
+          <mxGeometry x="-1096.5" y="669" width="323" height="270" as="geometry" />
         </mxCell>
         <mxCell id="ChVGmJGDzRxK7669mnZ_-19" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ChVGmJGDzRxK7669mnZ_-18">
           <mxGeometry width="323" height="270" as="geometry" />
@@ -137,7 +137,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="U0z29P2EZOE8Z1S6E8nX" name="Frontend UseCases">
-    <mxGraphModel dx="4522" dy="1532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6434" dy="2553" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -267,7 +267,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="k1OWiB_b3UI-bdixU7Ov" name="Integration UseCases">
-    <mxGraphModel dx="2876" dy="1094" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2757" dy="1758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -393,24 +393,95 @@
           <mxGeometry x="250" y="450" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jBybfuIfDPozSE7CGX2O-14" value="&lt;h1&gt;Finalidade&lt;/h1&gt;&lt;p&gt;Para que seja possível realizar o processo de deploy de Integration Flows e sua posterior parametrização para o estado de &quot;deploy&quot; de maneira automatizada, deve-se criar uma integração capaz de receber via formulário os insumos da integração e, posteriormente, realizar o processamento dos dados via backend, executando as ações de upload e parametrização de deploy do Integration Flow em ambiente Produtivo (PRD).&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-780" y="225" width="190" height="270" as="geometry" />
+          <mxGeometry x="-749.5" y="310" width="190" height="270" as="geometry" />
         </mxCell>
         <mxCell id="jBybfuIfDPozSE7CGX2O-15" value="Parameters" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-120" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r8_lnZMQknlcuLbPv8o3-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=12 12;" edge="1" parent="1" source="r8_lnZMQknlcuLbPv8o3-2" target="r8_lnZMQknlcuLbPv8o3-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r8_lnZMQknlcuLbPv8o3-2" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-559.5" y="-225" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r8_lnZMQknlcuLbPv8o3-3" value="Fiori" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-437.5" y="-530" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r8_lnZMQknlcuLbPv8o3-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="r8_lnZMQknlcuLbPv8o3-8" target="r8_lnZMQknlcuLbPv8o3-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-319.5" y="-380" />
+              <mxPoint x="-319.5" y="-380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r8_lnZMQknlcuLbPv8o3-5" value="1 - GET" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="r8_lnZMQknlcuLbPv8o3-4">
+          <mxGeometry x="-0.4205" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r8_lnZMQknlcuLbPv8o3-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="r8_lnZMQknlcuLbPv8o3-8" target="r8_lnZMQknlcuLbPv8o3-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-139.5" y="-230" />
+              <mxPoint x="-139.5" y="-230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r8_lnZMQknlcuLbPv8o3-7" value="2 - POST" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="r8_lnZMQknlcuLbPv8o3-6">
+          <mxGeometry x="-0.9319" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r8_lnZMQknlcuLbPv8o3-8" value="Frontend" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-457.5" y="-440" width="100" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="r8_lnZMQknlcuLbPv8o3-9" value="Integration Suite PRD" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-49.5" y="-530" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r8_lnZMQknlcuLbPv8o3-10" value="Github" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500.5" y="-530" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r8_lnZMQknlcuLbPv8o3-11" value="Backend" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="510.5" y="-260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r8_lnZMQknlcuLbPv8o3-12" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-297.5" y="-20" as="sourcePoint" />
+            <mxPoint x="-297.5" y="-460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r8_lnZMQknlcuLbPv8o3-13" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="469.5" y="-20" as="sourcePoint" />
+            <mxPoint x="469.5" y="-460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r8_lnZMQknlcuLbPv8o3-14" value="&lt;h1&gt;Github Authentication&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-135" y="-630" width="287" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r8_lnZMQknlcuLbPv8o3-15" value="KVM&lt;br&gt;Github Token" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-234.5" y="-410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r8_lnZMQknlcuLbPv8o3-16" value="&lt;h1&gt;KeyValueMaps&lt;/h1&gt;&lt;p&gt;Para que o token de autorização não seja fixado no código da aplicação Fiori, será disponibilizado um KVM em ambiente Produtivo do Integration Suite para que por meio de uma requisição Get para o recurso do KVM, o Fiori obtenha o token e então possa utilizá-lo no header &quot;Authentication&quot; em todas as comunicações com o Github.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-820" y="-445" width="190" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="31sRPGHvqVUQdrrKDibQ-2" value="&lt;b&gt;recurso:&lt;br&gt;&lt;br&gt;&lt;/b&gt;/Management.svc/KeyMapEntryValues(map_name=&#39;githubTokens&#39;,&lt;br&gt;name=&#39;GITHUB_CPI_TOKEN&#39;)?&lt;br&gt;$format=json&amp;amp;$select=name,value,map_name&lt;b&gt;&lt;br&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-834.5" y="-130" width="360" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="d6ieSAeFHaT9mjKcqOiS" name="Payload examples">
-    <mxGraphModel dx="2336" dy="1975" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2336" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="qil7m8EiLISS4TCCwYtW-12" value="&lt;h1&gt;/publish&lt;/h1&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;{&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &quot;route&quot;: &quot;/publish&quot;,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &quot;integrationPackage&quot;: {&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;id&quot;: &quot;&quot;,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;name&quot;: &quot;&quot;,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;description&quot;: &quot;&quot;,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;shortText&quot;: &quot;&quot;,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;version&quot;: &quot;&quot;,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;supportedPlatform&quot;: &quot;&quot;,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;products&quot;: &quot;&quot;,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;keywords&quot;: &quot;&quot;,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;countries&quot;: &quot;&quot;,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;industries&quot;: &quot;&quot;,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;lineOfBusiness&quot;: &quot;&quot;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; },&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &quot;integrationFlow&quot;: {&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;name&quot;: &quot;&quot;,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;version&quot;: &quot;&quot;,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;id&quot;: &quot;&quot;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; },&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &quot;properties&quot;: {&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;teste&quot;: &quot;&quot;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; }&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;}&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry width="210" height="400" as="geometry" />
+          <mxGeometry x="200" y="70" width="210" height="400" as="geometry" />
         </mxCell>
         <mxCell id="qil7m8EiLISS4TCCwYtW-14" value="&lt;div&gt;route:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; type: string&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; description: rota informada para identificar o processo que será executado&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;integrationPackage:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; type: object&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; description: entidade responsável por agrupar Integration Flows no Integration Suite de acordo com o negócio da empresa&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; id: string&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; name:&amp;nbsp; &amp;nbsp;string&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; description: string&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; shortText: string&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; version: string&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; supportedPlatform: string&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; products: string&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; keywords: string&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; countries: string&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; industries: string&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; lineOfBusiness: string&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;IntegrationFlow:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; type: object&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; description: entidade responsável por comportar integrações low-code no Integration Suite. É criado dentro de um Integration package e possui propriedades de ambiente&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; id: string&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; name: string&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; version: string&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;properties:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; type: object&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; description:&amp;nbsp; &amp;nbsp; propriedades do Integration Flow.&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Cada Integration Flow possui um número &quot;n&quot; de propriedades, que são nada mais que variáveis de ambiente criadas pelo desenvolvedor.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; *&amp;nbsp; &amp;nbsp;As&amp;nbsp; properties possuem um body dinâmico, definido de acordo com o que foi previamente criado no Integration Flow.&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-540" y="10" width="500" height="600" as="geometry" />
+          <mxGeometry x="-340" y="80" width="500" height="600" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
