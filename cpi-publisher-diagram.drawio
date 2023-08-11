@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-11T14:23:25.583Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="YEjjozH0Yw5I9VxYpoRt" version="21.6.8" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-08-11T14:43:33.268Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="dAa8iu0_f1aygXCj2gEM" version="21.6.8" type="github" pages="5">
   <diagram name="Backend" id="U4ALBJMrt5r-Zm2KS0YD">
     <mxGraphModel dx="1889" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,8 +7,8 @@
         <mxCell id="Bm7CMhNdHjthdd0hcuxf-11" value="&lt;h1&gt;Entities&lt;/h1&gt;&lt;p&gt;Integration Package 1 x n&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;Integration Flows&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-140" y="150" width="320" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="Bm7CMhNdHjthdd0hcuxf-12" value="&lt;h1&gt;Usecases&lt;/h1&gt;&lt;p&gt;- Creation of Integration Packafe&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- Checks if the Integration Package already exists in PRD. If not, then create a new Integration Package;&lt;br&gt;&lt;/p&gt;&lt;p&gt;- Creation of Integration Flow&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- Creates a new Integration Flow within the Integration Package informed;&lt;br&gt;&lt;/p&gt;&lt;p&gt;- Completion of Integration Flow Properties&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- Receives the data from frontend and replaces the Integration Flow Properties from Non-PRD to then upload the artifact to PRD&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-140" y="260" width="320" height="240" as="geometry" />
+        <mxCell id="Bm7CMhNdHjthdd0hcuxf-12" value="&lt;h1&gt;Usecases&lt;/h1&gt;&lt;p&gt;- Creation of Integration Package&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- Checks if the Integration Package already exists in PRD. If not, then create a new Integration Package;&lt;br&gt;&lt;/p&gt;&lt;p&gt;- Creation of Integration Flow&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- Creates a new Integration Flow within the Integration Package informed;&lt;br&gt;&lt;/p&gt;&lt;p&gt;- Update Integration Flow Properties&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- Receives the data from frontend and replaces the Integration Flow Properties from Non-PRD to then upload the artifact to PRD&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-140" y="260" width="320" height="220" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -39,7 +39,7 @@
         <mxCell id="pFrsWe29-qBMD74cATnR-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pFrsWe29-qBMD74cATnR-8" target="pFrsWe29-qBMD74cATnR-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pFrsWe29-qBMD74cATnR-8" value="Hysky&lt;br&gt;(lint, pretty, test, test build)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pFrsWe29-qBMD74cATnR-8" value="Pre-push tool&lt;br&gt;(lint, pretty, test, test build)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-905" y="360" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pFrsWe29-qBMD74cATnR-9" value="Docker container Nodejs 18.x" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -73,29 +73,29 @@
     </mxGraphModel>
   </diagram>
   <diagram id="U0z29P2EZOE8Z1S6E8nX" name="Frontend UseCases">
-    <mxGraphModel dx="3341" dy="939" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2716" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="O9YJKyO2WLW3gWEqJPpY-7" value="1.1 Listar todos os Integration Packages por meio de uma requisição&#xa;Get para o recurso:&#xa;/IntegrationPackages" style="text;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="-1520" y="710" width="370" height="50" as="geometry" />
+        <mxCell id="O9YJKyO2WLW3gWEqJPpY-7" value="1.1 Get Integration Packages:&#xa;GET - /IntegrationPackages" style="text;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="-1520" y="711" width="170" height="39" as="geometry" />
         </mxCell>
-        <mxCell id="O9YJKyO2WLW3gWEqJPpY-9" value="1.2 Obter todos os Integration Flows do Package através de uma chamada Get&#xa;para o recurso:&#xa;/IntegrationPackages(&#39;packageId&#39;)/IntegrationDesigntimeArtifacts?$format=json&#xa;&#xa;&#xa;1.3 Para cada Integration Flow presente no Integration Package, verificar se&#xa;está em deploy por meio de uma requisição Get para o recurso:&#xa;/IntegrationRuntimeArtifacts(&#39;integrationFlowId&#39;)?$format=json.&#xa;Essa requisição retornará objetos diferentes em caso de haver um Integration Flow em deploy em NON-PRD e statusCode específico para cada caso:&#xa;200 OK (O Integration Flow está em estado de &quot;deploy&quot; em NON-PRD) e 404 Not Found (Não foi localizado o Integration Flow. Isso significa que ainda não está em &quot;deploy&quot; no ambiente NON-PRD.&#xa;" style="text;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="O9YJKyO2WLW3gWEqJPpY-9" value="1.2 Get Integration Flows of a Integration Package:&#xa;GET - /IntegrationPackages(&#39;packageId&#39;)/IntegrationDesigntimeArtifacts?$format=json&#xa;&#xa;1.3 For each Integration Flow presented in the Integration Package, check if it has already been deployed:&#xa;GET - /IntegrationRuntimeArtifacts(&#39;integrationFlowId&#39;)?$format=json.&#xa;&#xa;This request will return different objects in case there is an Integration Flow being deployed in NON-PRD and specific statusCode for each case:&#xa;- 200 OK (Integration Flow is in &quot;deploy&quot; state in NON-PRD)&#xa;- 404 Not Found (The Integration Flow was not found. This means that it is not yet in &quot;deploy&quot; in the NON-PRD environment." style="text;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="-1520" y="890" width="460" height="202.25" as="geometry" />
         </mxCell>
-        <mxCell id="O9YJKyO2WLW3gWEqJPpY-11" value="4.1 A lista de propriedades varia de&#xa;acordo com o Integration Flow.&#xa;&#xa;&#xa;As propriedades são obtidas à partir de&#xa;uma requisição Get feita para o recurso:&#xa;&#xa;&#xa;IntegrationDesigntimeArtifacts(Id=&#39;iflowId&#39;,Version=&#39;x.x&#39;)/Configurations&#xa;&#xa;&#xa;Para melhorar o processamento, incorporar parâmetros a consulta:&#xa;&#xa;&#xa;IntegrationDesigntimeArtifacts(Id=&#39;iflowId&#39;,Version=&#39;x.x&#39;)/Configurations?$format=json&amp;$select=ParameterKey,ParameterValue" style="text;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="-1520" y="1270" width="390" height="240" as="geometry" />
+        <mxCell id="O9YJKyO2WLW3gWEqJPpY-11" value="4.1 The list of properties varies from&#xa;according to Integration Flow.&#xa;&#xa;Get Integration Flow Properties:&#xa;GET- /IntegrationDesigntimeArtifacts(Id=&#39;iflowId&#39;,Version=&#39;x.x&#39;)/Configurations&#xa;&#xa;&#xa;To improve processing, embed parameters in the query:&#xa;GET - /IntegrationDesigntimeArtifacts(Id=&#39;iflowId&#39;,Version=&#39;x.x&#39;)/Configurations?$format=json&amp;$select=ParameterKey,ParameterValue" style="text;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="-1520" y="1270" width="430" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="O9YJKyO2WLW3gWEqJPpY-14" value="1. Selecionar Integration Package" style="text;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=middle;" parent="1" vertex="1">
+        <mxCell id="O9YJKyO2WLW3gWEqJPpY-14" value="1. Choose an Integration Package" style="text;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="-1520" y="680" width="190" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="O9YJKyO2WLW3gWEqJPpY-16" value="2. Selecionar Integration Flow" style="text;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=middle;" parent="1" vertex="1">
+        <mxCell id="O9YJKyO2WLW3gWEqJPpY-16" value="2. Choose an Integration Flow" style="text;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="-1520" y="860" width="170" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="O9YJKyO2WLW3gWEqJPpY-18" value="3. Usuário visualiza Integration Package&#xa;e Integration Flow selecionados" style="text;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="O9YJKyO2WLW3gWEqJPpY-18" value="3. User views Integration Package&#xa;and Integration Flow selected" style="text;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="-1520" y="1170" width="220" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="O9YJKyO2WLW3gWEqJPpY-20" value="4. Usuário deve preencher as propriedades &#xa;do Integration Flow" style="text;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="O9YJKyO2WLW3gWEqJPpY-20" value="4. User must fill in all properties&#xa;of Integration Flow" style="text;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="-1520" y="1220" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="O9YJKyO2WLW3gWEqJPpY-25" value="" style="group;fillColor=none;" parent="1" vertex="1" connectable="0">
@@ -107,35 +107,35 @@
         <mxCell id="O9YJKyO2WLW3gWEqJPpY-22" value="{&#xa;    &quot;integrationPackage&quot;: {&#xa;        &quot;id&quot;: &quot;&quot;&#xa;    },&#xa;    &quot;integrationFlow&quot;: {&#xa;        &quot;id&quot;: &quot;&quot;,&#xa;        &quot;version&quot;: &quot;&quot;,&#xa;        &quot;properties&quot;: {}&#xa;    }&#xa;}" style="text;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" parent="O9YJKyO2WLW3gWEqJPpY-25" vertex="1">
           <mxGeometry x="380.75" y="45" width="149.25" height="155" as="geometry" />
         </mxCell>
-        <mxCell id="O9YJKyO2WLW3gWEqJPpY-27" value="6. O usuário deve poder ser direcionado para a tela inicial do Integration Suite através de um botão" style="text;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="O9YJKyO2WLW3gWEqJPpY-27" value="6. The user should be able to be directed to the Integration Suite home screen via a button" style="text;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="-1000" y="851.5" width="250" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="O9YJKyO2WLW3gWEqJPpY-29" value="5. O usuário deve poder selecionar o ambiente que deseja visualizar, podendo alternar entre NON-PRD e PRD" style="text;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="O9YJKyO2WLW3gWEqJPpY-29" value="5. The user must be able to select the environment he wants to view, being able to switch between Non-PRD and PRD" style="text;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="-1000" y="680" width="250" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="zI-5eWUAR7682hIjd4x4-3" value="&lt;h1&gt;Tela 1&lt;/h1&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1525" y="630" width="75" height="35" as="geometry" />
+        <mxCell id="zI-5eWUAR7682hIjd4x4-3" value="&lt;h1&gt;Screen 1&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1525" y="630" width="115" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="zI-5eWUAR7682hIjd4x4-4" value="&lt;h1&gt;Tela 2&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1525" y="810" width="80" height="41.5" as="geometry" />
+        <mxCell id="zI-5eWUAR7682hIjd4x4-4" value="&lt;h1 style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;Screen 2&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1525" y="810" width="115" height="41.5" as="geometry" />
         </mxCell>
-        <mxCell id="zI-5eWUAR7682hIjd4x4-6" value="&lt;h1&gt;Tela 3&lt;/h1&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1520" y="1119.5" width="75" height="31" as="geometry" />
+        <mxCell id="zI-5eWUAR7682hIjd4x4-6" value="&lt;h1 style=&quot;border-color: var(--border-color);&quot;&gt;Screen 3&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1520" y="1119.5" width="110" height="31" as="geometry" />
         </mxCell>
         <mxCell id="zI-5eWUAR7682hIjd4x4-8" value="&lt;h1&gt;Figma&lt;/h1&gt;&lt;p&gt;https://www.figma.com/file/bZsYcFnV8zHb4NzktB3HCj/Bunge?type=design&amp;amp;node-id=0-1&amp;amp;mode=design&amp;amp;t=3QM2wkxYR7wGgZFL-0&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="-1520" y="530" width="380" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="zI-5eWUAR7682hIjd4x4-9" value="&lt;h1&gt;Telas 1 e 4&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1000" y="640" width="130" height="35" as="geometry" />
+        <mxCell id="zI-5eWUAR7682hIjd4x4-9" value="&lt;h1&gt;Screens 1 and 4&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1000" y="640" width="200" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="zI-5eWUAR7682hIjd4x4-10" value="&lt;h1&gt;Todas as telas&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="zI-5eWUAR7682hIjd4x4-10" value="&lt;h1&gt;All screens&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1000" y="810" width="180" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="k1OWiB_b3UI-bdixU7Ov" name="Integration UseCases">
-    <mxGraphModel dx="3088" dy="1967" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3020" dy="1929" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
