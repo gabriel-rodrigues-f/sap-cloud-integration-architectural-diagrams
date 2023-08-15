@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-15T20:50:12.501Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="Gz5qpsp9SES6dh9iohiv" version="21.6.8" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-08-15T20:50:25.095Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="POXS68Y5amNz3dS2UgPm" version="21.6.8" type="github" pages="5">
   <diagram name="Backend" id="U4ALBJMrt5r-Zm2KS0YD">
     <mxGraphModel dx="2021" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -124,12 +124,6 @@
             <mxGeometry x="-1525" y="560" width="560" height="50" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="O9YJKyO2WLW3gWEqJPpY-22" value="{&#xa;    &quot;integrationPackage&quot;: {&#xa;        &quot;id&quot;: &quot;&quot;&#xa;    },&#xa;    &quot;integrationFlow&quot;: {&#xa;        &quot;id&quot;: &quot;&quot;,&#xa;        &quot;version&quot;: &quot;&quot;,&#xa;        &quot;properties&quot;: {}&#xa;    }&#xa;}" style="text;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="-1520" y="1580" width="149.25" height="155" as="geometry" />
-        </mxCell>
-        <mxCell id="Ik2GhAAN4wt-5MwJXnYY-2" value="Payload sended to backend" style="text;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="-1520" y="1530" width="240" height="40" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
